@@ -1,0 +1,301 @@
+body
+{
+  margin: 0;
+}
+
+.page1
+{
+  background-color: black;
+  height: 100vh;
+}
+.page1_back
+{
+  height: 100vh;
+  flex-shrink: 0;
+  border-radius: 3189px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 51, 51, 0.50) 0%, rgba(255, 51, 51, 0.00) 100%);
+}
+.block
+{
+  display: flex;
+  justify-content: center;
+}
+
+
+.block_tittle
+{
+width: 600px;
+  height: 100px;
+}
+.tittle
+{
+  color: white;
+  text-align: center;
+  font-family: Lato;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 100px */
+  text-transform: capitalize;
+}
+
+.block1
+{
+  display: flex;
+  justify-content: center;
+}
+
+.block_text
+{
+  width: 420px;
+  margin-top: 20px;
+}
+
+.text
+{
+  color: white;
+  text-align: center;
+  font-family: Futura PT;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 28.6px */
+}
+
+.blocks
+{
+  display: flex;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+
+.rec1 {
+  width: 250px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #2F2E2E;
+
+  background: linear-gradient(131deg, rgba(255, 255, 255, 0.30) -19.06%, rgba(255, 255, 255, 0.00) 31.37%), #000;
+
+  box-shadow: 30px 30px 36px 0px rgba(21, 21, 21, 0.50) inset;
+  margin-left: 20px;
+}
+
+.rec2 {
+  width: 250px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #2F2E2E;
+
+  background: linear-gradient(131deg, rgba(255, 255, 255, 0.30) -19.06%, rgba(255, 255, 255, 0.00) 31.37%), #000;
+
+  box-shadow: 30px 30px 36px 0px rgba(21, 21, 21, 0.50) inset;
+  margin-left: 20px;
+}
+
+.rec3 {
+  width: 250px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #2F2E2E;
+
+  background: linear-gradient(131deg, rgba(255, 255, 255, 0.30) -19.06%, rgba(255, 255, 255, 0.00) 31.37%), #000;
+
+  box-shadow: 30px 30px 36px 0px rgba(21, 21, 21, 0.50) inset;
+  margin-left: 20px;
+}
+
+.rec4 {
+  width: 250px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #2F2E2E;
+
+  background: linear-gradient(131deg, rgba(255, 255, 255, 0.30) -19.06%, rgba(255, 255, 255, 0.00) 31.37%), #000;
+
+  box-shadow: 30px 30px 36px 0px rgba(21, 21, 21, 0.50) inset;
+  margin-left: 20px;
+}
+
+
+
+.text1
+{
+  color: #FFF;
+  text-align: center;
+  font-family: Futura PT;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  width: 170px;
+  margin-left: 40px;
+
+}
+
+
+
+
+.block3_img
+{
+position: relative;
+  margin-left: 80px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.number
+{
+  position: absolute;
+  color: white;
+  top:15px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  left: 35px;
+}
+
+
+.page2
+{
+  background-color: black;
+  height: 550px;
+}
+
+.block_ellipse
+{
+
+}
+
+.page2_ellipse
+{
+
+  width: 500px;
+  height: 200px;
+  background-image: url("./img/Ellipse2.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(16deg);
+  margin-left: 200px;
+}
+
+.page2_block-text
+{
+  display: flex;
+  justify-content: center;
+  margin-top: -100px;
+}
+
+.page2_text
+{
+  margin-bottom: 150px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-style: normal;
+  width: 550px;
+}
+@media screen and (max-width: 1200px)
+{
+
+  .page1
+  {
+    height: 1000px;
+  }
+
+   .blocks
+   {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+
+   }
+
+  .rec1
+  {
+
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left:150px ;
+    margin-top: 50px;
+
+
+  }
+  .rec2
+  {
+    flex-wrap: wrap;
+    margin-left: 650px ;
+    margin-top: -200px;
+  }
+   .rec3
+   {
+     flex-wrap: wrap;
+     margin-top: 50px;
+     margin-left: 150px ;
+
+   }
+
+   .rec4
+   {
+     flex-wrap: wrap;
+     margin-left: 650px ;
+     margin-top: -200px;
+     margin-bottom: 200px;
+   }
+  .text
+  {
+
+  }
+
+  .page2
+  {
+    margin-bottom: 500px;
+    height: 400px;
+  }
+
+
+  .block_ellipse{
+
+  }
+
+}
+@media  screen and (min-device-width: 0px) and (max-device-width: 800px) and (orientation: landscape)
+{
+  .blocks
+  {
+    .blocks
+    {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .rec1
+    {
+      width: 25%;
+      margin-left: 250px;
+    }
+    .rec2
+    {
+
+      width: 25%;
+      margin-left: 500px;
+
+    }
+    .rec3
+    {
+      margin-left: 250px;
+      width: 25%;
+    }
+    .rec4
+    {
+      width: 25%;
+      margin-left: 500px;
+    }
+  }
+
+}
